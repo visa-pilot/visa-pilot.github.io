@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Finish Visa & Arrival Forms Faster"
-  content: "Visa Pilot is a chat-first browser assistant that understands your current form page, explains fields, and suggests values with human-in-the-loop safety."
+  content: "VisaPilot is a specialized productivity tool designed to streamline the visa application process. Its sole purpose is to assist users in accurately and efficiently filling out complex visa application forms on official government websites. By leveraging AI-powered guidance and smart auto-fill capabilities, it helps users minimize input errors, understand technical requirements for supporting documents, and save time during the data entry stage of their international travel preparations."
   image: "/images/vp-banner.png"
   button:
     enable: true

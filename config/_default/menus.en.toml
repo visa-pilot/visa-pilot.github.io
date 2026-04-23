@@ -21,11 +21,6 @@ name = "Contact"
 url = "/contact"
 weight = 4
 
-[[main]]
-name = "GitHub"
-url = "https://github.com/yanqian/visa-pilot-extension"
-weight = 5
-
 # footer menu
 [[footer]]
 name = "Contact"
