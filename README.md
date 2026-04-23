@@ -1,5 +1,7 @@
 # VisaPilot Blog (GitHub Pages)
 
+Chat-first browser assistant for visa/arrival-card forms, with page understanding, guided filling, and progressive memory.
+
 Marketing site for `visa-pilot-extension`, built with Hugo + Hugoplate.
 
 ## Local Development
