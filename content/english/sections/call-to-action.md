@@ -1,7 +1,7 @@
 ---
 enable: true
 title: "Ready to Try Visa Pilot?"
-image: "/images/vp-settings.png"
+image: "/images/vp-cta-small-tile.png"
 description: "Want to learn more or request access? Reach out and we will help you get started."
 button:
   enable: true
