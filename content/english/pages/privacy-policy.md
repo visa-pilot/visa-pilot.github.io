@@ -4,6 +4,7 @@ title: "Privacy Policy for VisaPilot Chrome Extension"
 meta_title: "Privacy Policy"
 # meta description
 description: "Privacy Policy for VisaPilot Chrome Extension"
+breadcrumb_title: "Privacy Policy"
 # save as draft
 draft: false
 ---

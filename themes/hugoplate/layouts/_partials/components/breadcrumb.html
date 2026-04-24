@@ -1,6 +1,10 @@
 {{ $context := .Context }}
 {{ $class := .Class }}
 {{ $base := site.Home.Permalink }}
+{{ $crumbTitle := $context.Title }}
+{{ with $context.Params.breadcrumb_title }}
+  {{ $crumbTitle = . }}
+{{ end }}
 
 
 <ul class="{{ $class }} inline-flex space-x-1 capitalize">
@@ -24,7 +28,7 @@
   {{ end }}
   <li>
     <span class="text-primary dark:text-darkmode-primary">
-      {{ T (printf "%s" (lower $context.Title)) | default $context.Title }}
+      {{ T (printf "%s" (lower $crumbTitle)) | default $crumbTitle }}
     </span>
   </li>
 </ul>
