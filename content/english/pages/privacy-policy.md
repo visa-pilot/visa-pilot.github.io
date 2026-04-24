@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "Privacy Policy for VisaPilot Chrome Extension"
 # meta title
 meta_title: "Privacy Policy"
 # meta description
@@ -7,9 +7,6 @@ description: "Privacy Policy for VisaPilot Chrome Extension"
 # save as draft
 draft: false
 ---
-
-**Privacy Policy for VisaPilot Chrome Extension**
-
 **Effective date:** April 24, 2026
 
 ### 1. Scope
