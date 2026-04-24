@@ -2,11 +2,11 @@
 enable: true
 title: "Ready to Try Visa Pilot?"
 image: "/images/vp-settings.png"
-description: "Clone the extension, run it locally, and start guided filling for visa and arrival-card forms in minutes."
+description: "Want to learn more or request access? Reach out and we will help you get started."
 button:
   enable: true
-  label: "Open GitHub Repository"
-  link: "https://github.com/yanqian/visa-pilot-extension"
+  label: "Contact Us"
+  link: "/contact"
 
 # don't create a separate page
 build:

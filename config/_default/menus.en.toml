@@ -33,11 +33,6 @@ url = "/contact"
 weight = 1
 
 [[footer]]
-name = "GitHub"
-url = "https://github.com/yanqian/visa-pilot-extension"
-weight = 2
-
-[[footer]]
 name = "Privacy Policy"
 url = "/privacy-policy"
-weight = 3
+weight = 2

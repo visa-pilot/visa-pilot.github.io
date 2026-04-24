@@ -4,9 +4,9 @@ banner:
   title: "Finish Visa & Arrival Forms Faster"
   image: "/images/vp-banner.png"
   button:
-    enable: true
-    label: "View Source on GitHub"
-    link: "https://github.com/yanqian/visa-pilot-extension"
+    enable: false
+    label: ""
+    link: ""
 
 # Features
 features:
