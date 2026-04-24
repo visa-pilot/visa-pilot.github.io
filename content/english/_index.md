@@ -2,7 +2,6 @@
 # Banner
 banner:
   title: "Finish Visa & Arrival Forms Faster"
-  content: "Visa Pilot is a chat-first browser assistant that understands your current form page, explains fields, and suggests values with human-in-the-loop safety."
   image: "/images/vp-banner.png"
   button:
     enable: true
