@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy for VisaPilot Chrome Extension"
+title: "Privacy Policy"
 # meta title
 meta_title: "Privacy Policy"
 # meta description
