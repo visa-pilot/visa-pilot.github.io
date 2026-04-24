@@ -119,10 +119,7 @@
                               fill="currentColor" />
                           </svg>
                         </div>
-                        <blockquote class="mt-8">
-                          {{ .content | markdownify }}
-                        </blockquote>
-                        <div class="mt-11 flex items-center">
+                        <div class="mt-8 mb-6 flex items-center">
                           <div class="text-text-dark dark:text-white">
                             {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
                           </div>
@@ -135,23 +132,12 @@
                             </p>
                           </div>
                         </div>
+                        <blockquote>
+                          {{ .content | markdownify }}
+                        </blockquote>
                       </div>
                     </div>
                   {{ end }}
-                </div>
-                <div class="mt-6 flex items-center justify-center gap-3">
-                  <button
-                    class="faq-slider-prev btn btn-outline-primary btn-sm"
-                    type="button"
-                    aria-label="Previous FAQ">
-                    Previous
-                  </button>
-                  <button
-                    class="faq-slider-next btn btn-outline-primary btn-sm"
-                    type="button"
-                    aria-label="Next FAQ">
-                    Next
-                  </button>
                 </div>
               </div>
             </div>
