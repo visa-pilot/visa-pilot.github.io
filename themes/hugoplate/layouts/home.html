@@ -101,10 +101,10 @@
               </p>
             </div>
             <div class="col-12">
-              <div class="swiper testimonial-slider">
-                <div class="swiper-wrapper">
+              <div class="faq-slider overflow-x-auto scroll-smooth pb-2">
+                <div class="flex gap-6">
                   {{ range .Params.testimonials }}
-                    <div class="swiper-slide">
+                    <div class="faq-slide w-[85%] shrink-0 md:w-[48%] lg:w-[31%]">
                       <div
                         class="bg-light dark:bg-darkmode-light rounded-lg px-7 py-10">
                         <div class="text-text-dark dark:text-white">
@@ -139,17 +139,15 @@
                     </div>
                   {{ end }}
                 </div>
-                <div
-                  class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
                 <div class="mt-6 flex items-center justify-center gap-3">
                   <button
-                    class="testimonial-slider-prev btn btn-outline-primary btn-sm"
+                    class="faq-slider-prev btn btn-outline-primary btn-sm"
                     type="button"
                     aria-label="Previous FAQ">
                     Previous
                   </button>
                   <button
-                    class="testimonial-slider-next btn btn-outline-primary btn-sm"
+                    class="faq-slider-next btn btn-outline-primary btn-sm"
                     type="button"
                     aria-label="Next FAQ">
                     Next
