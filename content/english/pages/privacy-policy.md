@@ -22,9 +22,8 @@ Visa Pilot is designed as local-first for persisted user data:
 
 #### Network Inference Notice
 
-AI responses may require network inference depending on provider mode.
-In backend/BFF mode, requests are proxied through the configured service.
-In direct provider mode, requests are sent to the configured API provider.
+AI assistance may require network inference.
+Requests are proxied through the configured backend/BFF service.
 
 #### Policy Changes
 

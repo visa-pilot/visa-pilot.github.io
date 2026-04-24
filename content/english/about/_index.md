@@ -7,14 +7,21 @@ layout: "about"
 draft: false
 ---
 
-Visa Pilot is a chat-first browser assistant for complex visa and arrival-card forms.
+VisaPilot is a specialized productivity tool designed to streamline the visa application process. Its sole purpose is to assist users in accurately and efficiently filling out complex visa application forms on official government websites.
 
-It helps users understand fields, get explainable recommendations, and apply values one field at a time with explicit confirmation.
+By leveraging AI-powered guidance and smart auto-fill capabilities, it helps users minimize input errors, understand technical requirements for supporting documents, and save time during the data entry stage of their international travel preparations.
 
-### Core Principles
+### Product Focus
 
-* Chat-first UX with page-aware context
-* Human-in-the-loop form assist (no auto-submit)
+* Page-aware, chat-first assistance for complex official forms
+* Explainable recommendations before any apply action
+* Human-in-the-loop filling with explicit user confirmation
 * Progressive memory from confirmed values
 * Multi-profile and multi-trip context isolation
-* Local-first storage for user data
+
+### Privacy Snapshot
+
+* This GitHub Pages site is a product information page only and does not provide account registration or direct data submission.
+* Profile, trip, memory, and settings are stored locally in browser storage.
+* The extension does not auto-submit external official forms.
+* When AI assistance is used, requests are handled through the configured backend/BFF service.
