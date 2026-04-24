@@ -18,10 +18,3 @@ By leveraging AI-powered guidance and smart auto-fill capabilities, it helps use
 * Human-in-the-loop filling with explicit user confirmation
 * Progressive memory from confirmed values
 * Multi-profile and multi-trip context isolation
-
-### Privacy Snapshot
-
-* This GitHub Pages site is a product information page only and does not provide account registration or direct data submission.
-* Profile, trip, memory, and settings are stored locally in browser storage.
-* The extension does not auto-submit external official forms.
-* When AI assistance is used, requests are handled through the configured backend/BFF service.
