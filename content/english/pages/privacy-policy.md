@@ -28,6 +28,8 @@ VisaPilot stores the following in `chrome.storage.local`:
 - local chat/session state and active context pointers
 - anonymous service token/device identifier used for backend trial access
 
+Local extension data stays on your device. If you uninstall the extension, Chrome generally removes this local extension storage. If you only disable and re-enable the extension, the local data usually remains.
+
 #### B. Data processed from supported pages
 
 On supported visa/arrival-card websites, VisaPilot may read:
@@ -71,6 +73,7 @@ We share data only as needed to provide AI functionality and related service ope
 ### 5. Data Retention
 
 - local extension data remains on your device until you delete it in settings or uninstall the extension
+- uninstalling the extension generally removes Chrome's local extension storage
 - backend/service logs, rate-limit records, and AI-processed request data are retained according to the configured service operator policies and applicable legal/security requirements
 - if you use OpenAI direct mode, retention is governed by OpenAI policies
 
@@ -82,6 +85,8 @@ You can:
 - switch AI provider mode
 - remove your OpenAI token from extension settings
 - uninstall the extension to remove local extension data
+
+If you uninstall and later reinstall the extension, your local browser-stored data is generally not restored automatically.
 
 ### 7. Data Categories (Chrome Web Store Alignment)
 

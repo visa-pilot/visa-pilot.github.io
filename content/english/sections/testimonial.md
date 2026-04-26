@@ -25,10 +25,10 @@ testimonials:
     avatar: "/images/avatar-sm.png"
     content: "Yes. You review suggestions first, then choose what to apply. You stay in control of every field."
 
-  - name: "Can I clear saved profile or memory data?"
-    designation: "Data Control"
+  - name: "What happens to my local data if I uninstall the extension?"
+    designation: "Data Retention"
     avatar: "/images/avatar-sm.png"
-    content: "Yes. You can edit or delete saved profile, trip, and memory data anytime in extension settings."
+    content: "Local extension data is generally removed when you uninstall VisaPilot. If you only disable and re-enable it, the data usually remains."
 
 # don't create a separate page
 build:
