@@ -1,12 +1,12 @@
 ---
 enable: true
-title: "Ready to Try Visa Pilot?"
+title: "Get Visa Pilot on Chrome Web Store"
 image: "/images/vp-cta-small-tile.png"
-description: "Want to learn more or request access? Reach out and we will help you get started."
+description: "Install Visa Pilot from the Chrome Web Store to get started."
 button:
   enable: true
-  label: "Contact Us"
-  link: "/contact"
+  label: "Open Chrome Web Store"
+  link: "https://chromewebstore.google.com/detail/visapilot/bckkbhikcbpnmackbcakigkgjmlofhjd?authuser=0&hl=zh-CN"
 
 # don't create a separate page
 build:

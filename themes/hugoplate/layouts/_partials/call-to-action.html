@@ -24,7 +24,12 @@
               </p>
               {{ with .Params.button }}
                 {{ if .enable }}
-                  <a class="btn btn-primary" href="{{ .link | absURL }}">
+                  <a
+                    class="btn btn-primary"
+                    href="{{ if strings.HasPrefix .link `http` }}{{ .link }}{{ else }}{{ .link | absURL }}{{ end }}"
+                    {{ if strings.HasPrefix .link `http` }}
+                      target="_blank" rel="noopener"
+                    {{ end }}>
                     {{ .label }}
                   </a>
                 {{ end }}
